@@ -50,9 +50,9 @@ const Navbar = () => {
 
           <button onClick={scrollToTop}
                   className="cursor-pointer bg-transparent border-0 p-0 shrink-0">
-            <img src={Logo} alt="RR Landing"
+            <img src={Logo} alt="RemoteRecruit"
                  className={`object-contain transition-all duration-300
-                             ${scrolled ? "w-[110px] sm:w-[130px]" : "w-[120px] sm:w-[150px]"}`} />
+                             ${scrolled ? "w-[88px] sm:w-[104px]" : "w-[96px] sm:w-[120px]"}`} />
           </button>
 
           <div className="hidden md:flex items-center gap-6">
@@ -62,7 +62,7 @@ const Navbar = () => {
             </a>
             <a href="#signup"
                className="h-[44px] px-7 rounded-[16px] flex items-center justify-center
-                          bg-[#63C7E9] text-white font-semibold
+                          bg-[#4FB8D4] text-white font-semibold
                           hover:brightness-110 transition-all duration-300">
               Sign Up
             </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
                 Sign In
               </a>
               <a href="#signup" onClick={() => setMenuOpen(false)}
-                 className="w-[120px] h-[44px] rounded-[16px] bg-[#63C7E9]
+                 className="w-[120px] h-[44px] rounded-[16px] bg-[#4FB8D4]
                             text-white font-medium flex items-center justify-center
                             hover:brightness-110 transition-all duration-200">
                 Sign Up

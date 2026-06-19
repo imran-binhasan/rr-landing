@@ -46,16 +46,16 @@ const Hero = () => (
           initial={{ opacity: 0, y: 28, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="text-white font-bold leading-[1.1] tracking-[-0.02em]
-                     text-[26px]
-                     sm:text-[36px]
-                     md:text-[44px]
-                     lg:text-[58px]
-                     xl:text-[78px] xl:tracking-[-0.03em] xl:leading-[1.05] xl:whitespace-nowrap
+          className="text-white font-normal leading-[1.1] tracking-[-0.01em]
+                     text-[21px]
+                     sm:text-[29px]
+                     md:text-[35px]
+                     lg:text-[46px]
+                     xl:text-[62px] xl:tracking-[-0.03em] xl:leading-[1.05] xl:whitespace-nowrap
                      mb-4 sm:mb-5 md:mb-6 lg:mb-7 xl:mb-[36px]
                      w-full break-words"
         >
-          RR Landing&rsquo;s Difference
+          RemoteRecruit&rsquo;s Difference
         </motion.h1>
 
         <motion.p
@@ -69,7 +69,7 @@ const Hero = () => (
                      lg:text-[18px] lg:leading-[1.8] lg:max-w-[720px]
                      xl:text-[22px] xl:leading-[1.8] xl:max-w-[920px]"
         >
-          RR Landing is connecting the world with an easy-to-use platform
+          RemoteRecruit is connecting the world with an easy-to-use platform
           that lets full-time, part-time, and freelance workers showcase their
           talents to businesses that need them. With no paywalls, no fees, and
           no barriers, there&rsquo;s nothing but you, your talents, and the

@@ -44,7 +44,8 @@ const CTA = () => (
         className="mt-8 overflow-hidden rounded-2xl max-w-120 mx-auto
                    shadow-[0_8px_40px_rgba(58,77,163,0.15)]"
       >
-        <img src={CTAImg} alt="RR Landing dashboard"
+        <img src={CTAImg} alt="RemoteRecruit dashboard"
+             loading="lazy"
              className="w-full h-auto object-cover object-top-left select-none"
              draggable={false} />
       </motion.div>
@@ -62,7 +63,7 @@ const CTA = () => (
         className="w-1/2 shrink-0 overflow-hidden rounded-2xl
                    shadow-[0_8px_40px_rgba(58,77,163,0.15)]"
       >
-        <img src={CTAImg} alt="RR Landing dashboard"
+        <img src={CTAImg} alt="RemoteRecruit dashboard"
              className="w-full h-auto object-cover object-top-left select-none"
              draggable={false} />
       </motion.div>
@@ -101,7 +102,7 @@ const CTA = () => (
     <div className="hidden xl:block relative w-full">
       <motion.img
         src={CTAImg}
-        alt="RR Landing dashboard"
+        alt="RemoteRecruit dashboard"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.1 }}

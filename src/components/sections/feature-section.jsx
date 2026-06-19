@@ -33,7 +33,7 @@ const FeatureSection = () => (
           <p className="mt-5 sm:mt-6 text-[#6B7088] font-normal leading-[1.8]
                         text-[15px] sm:text-[16px] lg:text-[17px]
                         max-w-full lg:max-w-[460px] mx-auto lg:mx-0">
-            RR Landing connects candidates with opportunities around the
+            RemoteRecruit connects candidates with opportunities around the
             world. With today&rsquo;s remote-first workforce, you need to be
             able to find the best jobs and the best people for them,
             wherever they may be.
@@ -47,7 +47,7 @@ const FeatureSection = () => (
           viewport={{ once: true, amount: 0.2 }}
           className="w-full flex justify-center lg:justify-end"
         >
-          <img src={Illustration} alt="RR Landing platform"
+          <img src={Illustration} alt="RemoteRecruit platform"
                loading="lazy"
                className="w-full max-w-[340px] sm:max-w-[480px] md:max-w-[560px] lg:max-w-[620px]
                           h-auto object-contain select-none"

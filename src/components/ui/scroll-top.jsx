@@ -27,7 +27,7 @@ const ScrollTop = () => {
           type="button"
           className="fixed bottom-6 right-6 z-[9998]
                      w-11 h-11 rounded-full
-                     bg-[#63C7E9] text-white
+                     bg-[#4FB8D4] text-white
                      flex items-center justify-center
                      shadow-[0_4px_20px_rgba(99,199,233,0.5)]
                      hover:brightness-110 hover:scale-110

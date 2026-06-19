@@ -224,14 +224,14 @@ const Footer = () => (
           <button
             type="button"
             onClick={scrollToTop}
-            aria-label="RR Landing home — scroll to top"
+            aria-label="RemoteRecruit home — scroll to top"
             className="shrink-0 cursor-pointer bg-transparent border-0 p-0
                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
           >
             <img
               src={Logo}
-              alt="RR Landing"
-              className="h-auto w-[150px] object-contain lg:w-[160px]"
+              alt="RemoteRecruit"
+              className="h-auto w-[120px] object-contain lg:w-[128px]"
             />
           </button>
 
@@ -248,14 +248,14 @@ const Footer = () => (
           <button
             type="button"
             onClick={scrollToTop}
-            aria-label="RR Landing — scroll to top"
+            aria-label="RemoteRecruit — scroll to top"
             className="cursor-pointer bg-transparent border-0 p-0
                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
           >
             <img
               src={RRIcon}
-              alt="RR Landing"
-              className="h-7 w-9 object-contain lg:h-8 lg:w-10"
+              alt="RemoteRecruit"
+              className="h-[22px] w-[29px] object-contain lg:h-[26px] lg:w-8"
             />
           </button>
         </div>
